@@ -1,0 +1,79 @@
+* {
+	box-sizing:  border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*header*/
+.logo-margen{
+	margin-left: 27%;
+    width: 19%;
+    margin-top: 2%;
+}
+
+.menu{
+	color:#95B5D3;
+	text-decoration: none;
+
+}
+.section1{
+    height: 30%;
+    background: #808080;
+    padding: 4%;
+}
+nav{
+	padding: 20px 5px;
+}
+nav a{
+	text-decoration: none;
+    color: #808080;
+    padding: 18px;
+
+}
+/*section*/
+.titulo{
+	color: white;
+    font-size: 55px;
+    padding: 8% 21%;
+    margin-left: 73px;
+}
+.parrafo{
+	color: white;
+    padding: 0% 19% 9% 21%;
+    margin-left: 73px;
+}
+.form-datos{
+	padding: 7%;
+    background: #9A9A9A;
+    width: 50%;
+    margin-top: 10%;
+    border-radius: 4%;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-top: -21px;
+}
+
+.boton-form{
+    padding: 4% 16%;
+    color: black;
+    margin: 1% 2% 1% -13%;
+}
+.email{
+	margin-bottom: 10%;
+}
+.boton{
+    background-color: #3EB0F7;
+    color: white;
+    text-decoration: none;
+    padding: 7% 72% 4% 5%;
+    margin-left: -13%;
+}
+/*footer*/
+.pie{
+	margin: 2% 18%;
+}
+.nk{
+	text-decoration: none;
+}
