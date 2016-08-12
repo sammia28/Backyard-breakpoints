@@ -3,11 +3,16 @@
 	margin: 0px;
 	padding: 0px;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
 
 /*header*/
 .logo-margen{
-	margin-left: 27%;
-    width: 19%;
+    margin-left: 7%;
+    width: 21%;
     margin-top: 2%;
 }
 
@@ -31,44 +36,38 @@ nav a{
 
 }
 /*section*/
-.titulo{
+h1{
 	color: white;
     font-size: 55px;
-    padding: 8% 21%;
-    margin-left: 73px;
 }
 .parrafo{
-	color: white;
-    padding: 0% 19% 9% 21%;
-    margin-left: 73px;
+    color: white;
+    padding-right: 13%;
 }
 .form-datos{
 	padding: 7%;
     background: #9A9A9A;
-    width: 50%;
-    margin-top: 10%;
     border-radius: 4%;
 }
 h2{
     color: white;
     text-align: center;
-    margin-top: -21px;
 }
 
 .boton-form{
-    padding: 4% 16%;
+    width: 100%;
+    padding: 2%;
     color: black;
-    margin: 1% 2% 1% -13%;
 }
 .email{
-	margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 .boton{
     background-color: #3EB0F7;
     color: white;
     text-decoration: none;
-    padding: 7% 72% 4% 5%;
-    margin-left: -13%;
+    padding: 4% 40% 2%;
+    
 }
 /*footer*/
 .pie{
@@ -76,4 +75,10 @@ h2{
 }
 .nk{
 	text-decoration: none;
+}
+@media (max-width: 700px) and(min-width: 200px)
+ {
+.col-8, .col-4 { width: 100%; }
+
+.boton{ padding: 4% 40% 2%;}
 }
